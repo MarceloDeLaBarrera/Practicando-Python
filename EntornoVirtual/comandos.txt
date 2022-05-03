@@ -1,0 +1,25 @@
+#Creacion de entorno. Hay que posicionarse en carpeta donde se quiera crear entorno desde terminal de VSCODE.
+
+virtualenv -p python3 env
+
+#Activar entorno virtual para poder trabajar con y dentro de el.
+
+.\env\Scripts\activate
+
+#Si aparece un " (env) " previo a la ruta donde se ejecuta, es porque esta activado.
+
+
+#Para ejecutar dentro del entorno:
+
+python .\src\<nombre del archivo.py>
+
+#Exportar los paquetes que estan dentro del entorno:
+pip freeze > requirements.txt
+
+#Si se cambia de pc, se puede crear un nuevo entorno en dicho pc, y se le pueden meter el src y requeriments.txt del pc anterior, para asi trasladar proyecto e instalar los paquetes necesarios para el enterno virtual. Entonces, una vez dentro del entorno:
+
+pip install -r .\requirements.txt
+
+#Desactivar entorno virtual:
+deactivate
+

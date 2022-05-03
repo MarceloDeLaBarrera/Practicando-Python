@@ -1,0 +1,19 @@
+{
+  "Libros": [
+    {
+      "ISBN": "7834674832",
+      "Titulo": "Juanito",
+      "Autor": "Pereazd jajaj"
+    },
+    {
+      "ISBN": "32173",
+      "Titulo": "cHUPala meando",
+      "Autor": "Pepegruilo"
+    },
+    {
+      "ISBN": "3123",
+      "Titulo": "El viento",
+      "Autor": "Pepesaurio"
+    }
+  ]
+}
