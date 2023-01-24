@@ -33,7 +33,7 @@ listaEmpleados = [
 ]
 
 
-salarios_altos = filter(lambda sal: sal.money > 50000, listaEmpleados)
+salarios_altos = filter(lambda sal: sal.money > 70000, listaEmpleados)
 
 for salarios in salarios_altos:
     print(salarios)
